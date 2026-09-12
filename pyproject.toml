@@ -1,0 +1,58 @@
+[project]
+name = "vektis-mcp"
+version = "0.1.0"
+description = "MCP server for the public Vektis AGB-register of Dutch healthcare providers"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Poorya", email = "poorya922@gmail.com" }]
+requires-python = ">=3.12"
+keywords = ["mcp", "model-context-protocol", "vektis", "agb", "agb-register", "zorg", "healthcare", "netherlands"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Healthcare Industry",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Natural Language :: Dutch",
+    "Natural Language :: English",
+]
+dependencies = [
+    "anyio>=4",
+    "httpx>=0.28.1",
+    "mcp>=1.10,<2",
+    "pydantic>=2.13.5",
+    "selectolax>=0.4.11",
+    "uvicorn>=0.30",
+]
+
+[project.urls]
+Homepage = "https://github.com/pooryam92/vektis-mcp"
+Repository = "https://github.com/pooryam92/vektis-mcp"
+Issues = "https://github.com/pooryam92/vektis-mcp/issues"
+Changelog = "https://github.com/pooryam92/vektis-mcp/releases"
+
+[project.scripts]
+vektis-mcp = "vektis_mcp.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["vektis_mcp"]
+include = ["vektis_mcp/data/*.json"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]

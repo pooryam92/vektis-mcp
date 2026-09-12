@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <title>Vektis</title>
+    <meta name="csrf-token" content="TESTCSRFMETATOKEN0000000000000000000000">
+</head>
+<body>
+<main>
+    <form
+        class="js-agb-search-form"
+        action="https://www.vektis.nl/agb-register/zoeken/resultaten#resultaten"
+        method="POST"
+        data-qualifications-item-template="#qualificationsItem"
+        data-qualifications-badge-template="#qualificationsBadge"
+    >
+        <input type="hidden" name="_token" value="TESTFORMTOKEN000000000000000000000000000" autocomplete="off">
+        <h2 class="h3">Vind een zorgverlener of een onderneming/vestiging</h2>
+        <section class="mb-4 overflow-x-auto overflow-sm-visible">
+            <ul class="row g-4 flex-nowrap">
+                <li class="col-auto col-sm-6 col-lg-3">
+                    <input
+                        class="visually-hidden"
+                        id="frmInputZorgpartijType1"
+                        type="radio"
+                        name="zorgpartijtype"
+                        value="zorgverlener"
+                        data-action="tab"
+                        data-target="#tab1"
+                        data-show-fieldsets="#zorgsoortZorgverlener"
+                        data-hide-fieldsets="#zorgsoortVestiging"
+                        checked
+                        required
+                    >
+                    <label class="tile" for="frmInputZorgpartijType1" aria-controls="tab1">
+                        <h3 class="tile__title h5 mt-4 mt-xl-6 lc-2 mb-0">Zorgverlener</h3>
+                    </label>
+                </li>
+                <li class="col-auto col-sm-6 col-lg-3">
+                    <input
+                        class="visually-hidden"
+                        id="frmInputZorgpartijType2"
+                        type="radio"
+                        name="zorgpartijtype"
+                        value="onderneming,vestiging"
+                        data-action="tab"
+                        data-target="#tab2"
+                        data-show-fieldsets="#zorgsoortVestiging"
+                        data-hide-fieldsets="#zorgsoortZorgverlener"
+                        required
+                    >
+                    <label class="tile" for="frmInputZorgpartijType2" aria-controls="tab2">
+                        <h3 class="tile__title h5 mt-4 mt-xl-6 lc-2 mb-0">Onderneming/<wbr><wbr>Vestiging</h3>
+                    </label>
+                </li>
+            </ul>
+        </section>
+        <fieldset class="row gx-4">
+            <div class="col-md-6">
+                <div class="form-group ">
+                    <label class="form-label" for="frmInputAgbcode">Zoek op AGB-code of naam</label>
+                    <input
+                        class="form-control"
+                        id="frmInputAgbcode"
+                        name="agbcode"
+                        placeholder="AGB-code of naam"
+                        value=""
+                        pattern="^\d+$|^[A-Za-zÀ-ÖØ-öø-ÿ0-9\s\-'\(\).]+$"
+                        data-error-class="is-invalid"
+                        data-field-name="AGB-code"
+                        data-required
+                    >
+                    <div class="invalid-feedback">Deze naam of AGB-code bevat een ongeldig formaat.</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <fieldset class="form-group " id="zorgsoortZorgverlener">
+                    <label class="form-label" for="frmSelectZorgsoort">Zorgsoort</label>
+                    <select
+                        class="form-select"
+                        id="frmSelectZorgsoort"
+                        name="zorgsoort"
+                        data-error-class="is-invalid"
+                        data-json="zorgverlenerKwalificatiesJSON"
+                        data-action="set-qualifications"
+                        data-target="#frmKwalificaties"
+                        data-required
+                    >
+                        <option value="">00 - Alle zorgsoorten</option>
+                        <option value="01">01 - Huisartsen</option>
+                        <option value="02">02 - Apothekers</option>
+                    </select>
+                    <div class="invalid-feedback"></div>
+                </fieldset>
+                <fieldset class="form-group " id="zorgsoortVestiging" hidden disabled>
+                    <label class="form-label" for="frmSelectZorgsoortVestiging">Zorgsoort</label>
+                    <select
+                        class="form-select"
+                        id="frmSelectZorgsoortVestiging"
+                        name="zorgsoort"
+                        data-error-class="is-invalid"
+                        data-json="zorgverlenerKwalificatiesJSON"
+                        data-action="set-qualifications"
+                        data-target="#frmKwalificaties"
+                        data-required
+                    >
+                        <option value="">00 - Alle zorgsoorten</option>
+                        <option value="01">01 - Huisartsen</option>
+                        <option value="20">20 - Ziekenhuizen</option>
+                    </select>
+                    <div class="invalid-feedback"></div>
+                </fieldset>
+                <div class="form-group" id="frmKwalificaties" hidden >
+                    <label for="zorgverlenerKwalificaties" class="form-label">Kwalificaties</label>
+                    <div class="dropdown" style="--dd-max-height:200px;" data-action="filter-qualifications">
+                        <button class="btn btn-select w-100" type="button" id="dropdown-testfixture" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="">Kies kwalificaties</span>
+                        </button>
+                        <ul class="dropdown-menu position-absolute dropdown-menu-sm w-100 min-w-100"></ul>
+                    </div>
+                    <div class="list-inline mt-2 hide-when-empty"></div>
+                </div>
+            </div>
+        </fieldset>
+        <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response-testfixture">
+        <div class="tab-content">
+            <fieldset id="tab1">
+                <div class="alert-danger alert js-empty-error-message" role="alert"></div>
+                <div class="text-end">
+                    <button class="btn btn-primary js-submit-button" dusk="register-search-button-zorgverlener">
+                        <span class="">Zoeken in register</span>
+                    </button>
+                </div>
+            </fieldset>
+            <fieldset id="tab2" hidden>
+                <div class="collapse" id="collapseMoreFilters">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <label class="form-label" for="frmInputPlaats">Zoek op plaats</label>
+                                <input
+                                    class="form-control "
+                                    id="frmInputPlaats"
+                                    name="plaats"
+                                    placeholder="Zoek op plaats"
+                                    value=""
+                                    data-error-class="is-invalid"
+                                    data-required
+                                    pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\s\-'`]+$"
+                                >
+                                <div class="invalid-feedback">Deze plaatsnaam bevat een ongeldig formaat.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <label class="form-label" for="frmInputPostcode">Zoek op postcode</label>
+                                <input
+                                    class="form-control  js-v-upper-case-alpha-numeric"
+                                    id="frmInputPostcode"
+                                    name="postcode"
+                                    placeholder="Zoek op postcode"
+                                    value=""
+                                    data-error-class="is-invalid"
+                                    data-transform-input="upper-case-alpha-numeric"
+                                    data-required
+                                    pattern="[1-9][0-9]{3}\s?([a-zA-Z]{2})?"
+                                >
+                                <div class="invalid-feedback">Deze postcode bevat een ongeldig formaat.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="form-group">
+                                <label class="form-label" for="frmInputKvknummer">Zoek op KvK-nummer</label>
+                                <input
+                                    class="form-control "
+                                    id="frmInputKvknummer"
+                                    name="kvknummer"
+                                    placeholder="Zoek op KvK-nummer"
+                                    value=""
+                                    data-error-class="is-invalid"
+                                    data-field-name="KvK-nummer"
+                                    data-required
+                                    pattern="^[0-9]{1,12}"
+                                >
+                                <div class="invalid-feedback">Dit KvK-nummer bevat een ongeldig formaat.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert-danger alert js-empty-error-message" role="alert"></div>
+                <div class="row g-2 align-items-center justify-content-between">
+                    <div class="col-md-auto text-center">
+                        <a class="d-inline-block my-4" href="#collapseMoreFilters" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseMoreFilters">Meer filters</a>
+                    </div>
+                    <div class="col-md-auto text-center">
+                        <button class="btn btn-primary w-100 js-submit-button" dusk="register-search-button-onderneming">
+                            <span class="">Zoeken in register</span>
+                        </button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <section class="js-search-results" data-value=""></section>
+    </form>
+</main>
+<template id="qualificationsItem">
+    <li>
+        <label class="dropdown-item text-wrap align-items-start">
+            <input id="q_{id}" type="checkbox" name="kwalificaties[]" value="{value}" {checked}>
+            {label}
+        </label>
+    </li>
+</template>
+<template id="qualificationsBadge">
+    <div class="badge border border-current text-current fw-normal list-inline-item mb-1 js-selection-tag">
+        <span class="lh-1" title="{label}">{label}</span>
+        <button class="" type="button" data-action="click-element" data-click-target="#{id}"></button>
+    </div>
+</template>
+<script data-cookieconsent="ignore">
+    const qualifications = {"zorgverlener":{"01":{"code":"01","description":"Huisartsen","kwalificaties":{"0101":{"code":"0101","description":"Huisarts - 0101","selected":false},"0110":{"code":"0110","description":"Huisarts, Apotheekhoudend - 0110","selected":false}}},"02":{"code":"02","description":"Apothekers","kwalificaties":{"0200":{"code":"0200","description":"Apothekers - 0200","selected":false}}}},"onderneming,vestiging":{"01":{"code":"01","description":"Huisartsen","kwalificaties":{"0100":{"code":"0100","description":"Huisartsenpraktijk - 0100","selected":false}}},"20":{"code":"20","description":"Ziekenhuizen","kwalificaties":{"2000":{"code":"2000","description":"Ziekenhuis - 2000","selected":false}}}}};
+</script>
+</body>
+</html>

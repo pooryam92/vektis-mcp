@@ -1,0 +1,977 @@
+{
+ "zorgverlener": {
+  "01": {
+   "naam": "Huisartsen",
+   "kwalificaties": {
+    "0101": "Huisarts",
+    "0102": "Huisarts, medicatiebeoordeling chronisch UR-geneesmiddelgebr",
+    "0103": "Huisarts, Uitsluitend waarnemend",
+    "0110": "Huisarts, Apotheekhoudend"
+   }
+  },
+  "02": {
+   "naam": "Apothekers",
+   "kwalificaties": {
+    "0200": "Apothekers",
+    "0201": "Apotheker, medicatiebeoordeling chronisch UR-geneesmiddelgeb"
+   }
+  },
+  "03": {
+   "naam": "Medisch Specialisten",
+   "kwalificaties": {
+    "0301": "Oogheelkunde",
+    "0302": "Keel-, neus- en oorheelkunde",
+    "0303": "Chirurgie (Heelkunde)",
+    "0304": "Plastische chirurgie",
+    "0305": "Orthopedie",
+    "0306": "Urologie",
+    "0307": "Obstetrie en gynaecologie",
+    "0308": "Neurochirurgie",
+    "0310": "Dermatologie en Venerologie",
+    "0313": "Interne geneeskunde",
+    "0316": "Kindergeneeskunde",
+    "0318": "Gastro-enterologie (Maag-darm-lever-arts)",
+    "0320": "Cardiologie",
+    "0322": "Longziekten",
+    "0324": "Reumatologie",
+    "0326": "Allergologie",
+    "0327": "Revalidatie",
+    "0328": "Cardio-thoracale chirurgie",
+    "0329": "Psychiatrie",
+    "0330": "Neurologie",
+    "0335": "Geriatrie",
+    "0361": "Radiotherapie",
+    "0362": "Radiologie",
+    "0363": "Nucleaire geneeskunde",
+    "0386": "Klinische chemie",
+    "0387": "Medische microbiologie",
+    "0388": "Pathologie",
+    "0389": "Anesthesiologie",
+    "0390": "Klinische genetica"
+   }
+  },
+  "04": {
+   "naam": "Fysiotherapeuten",
+   "kwalificaties": {
+    "0401": "Fysiotherapie",
+    "0402": "Fysiotherapeuten, heilgymnastiek/massage",
+    "0403": "Kinderfysiotherapie",
+    "0404": "Manuele therapie",
+    "0405": "Oedeemtherapie",
+    "0406": "Bekkenfysiotherapie",
+    "0407": "Fysiotherapie in de geriatrie",
+    "0408": "Sportfysiotherapie",
+    "0409": "Psychosomatische fysiotherapie",
+    "0410": "Oro-faciale fysiotherapie",
+    "0411": "Arbeids- en/of bedrijfsfysiotherapie",
+    "0412": "Oncologie fysiotherapie",
+    "0477": "Fysiotherapie Leefstijlcoach",
+    "0478": "Hart-, vaat- en longfysiotherapie",
+    "0479": "Hart fysiotherapie",
+    "0480": "Vaat fysiotherapie",
+    "0481": "Long fysiotherapie",
+    "0482": "Fysiotherapie Kinderleefstijlcoach",
+    "0483": "Valpreventie fysiotherapie",
+    "0484": "Reumatoïde artritis fysiotherapie",
+    "0485": "Axiale spondyloartritis fysiotherapie"
+   }
+  },
+  "05": {
+   "naam": "Logopedisten",
+   "kwalificaties": {
+    "0501": "Logopedie",
+    "0503": "Stottertherapie",
+    "0504": "Preverbale logopedie",
+    "0505": "Logopedie, direct toegankelijk / 1e lijn",
+    "0506": "Afasie",
+    "0507": "Hanen-ouderprogramma",
+    "0508": "Integraal Zorg Stotteren (IZS)"
+   }
+  },
+  "07": {
+   "naam": "Oefentherapeuten",
+   "kwalificaties": {
+    "0700": "Oefentherapie",
+    "0701": "Oefentherapeuten, methode Cesar",
+    "0702": "Oefentherapeuten, methode Mensendieck",
+    "0703": "Kinderoefentherapie",
+    "0704": "Psychosomatische oefentherapie",
+    "0705": "Oefentherapeuten, methode cesar, kinderoefentherapie",
+    "0706": "Oefentherapeuten, methode mensendieck, kinderoefentherapie",
+    "0707": "Oefentherapeuten, methode cesar, psychosomatische oefenthera",
+    "0708": "Oefentherapeuten, methode mensendieck, psychosomatische oefe",
+    "0709": "Oefentherapeuten, direct toegankelijk",
+    "0718": "Oefentherapie Leefstijlcoach",
+    "0719": "Bekkenoefentherapie",
+    "0720": "Geriatrie Oefentherapie",
+    "0722": "Valpreventie Oefentherapie",
+    "0723": "Reumatoïde artritis indicatie 3 Oefentherapie",
+    "0724": "Axiale Spondyloartritis oefentherapie"
+   }
+  },
+  "08": {
+   "naam": "Verloskundigen",
+   "kwalificaties": {
+    "0800": "Verloskundige",
+    "0801": "Verloskundigen, met bevoegdheid echoscopie",
+    "0802": "Verloskundigen, echoscopie NT",
+    "0803": "Verloskundigen, echoscopie SEO",
+    "0804": "Uitwendige versie",
+    "0805": "Eerste trimester SEO",
+    "0806": "Tweede trimester SEO",
+    "0807": "Biometrie echo",
+    "0808": "Termijn echo",
+    "0809": "Counseling prenatale screening",
+    "0810": "Anticonceptie",
+    "0811": "Antenataal CTG",
+    "0812": "Basisechoscopie"
+   }
+  },
+  "11": {
+   "naam": "Tandarts - Specialisten (Mondziekten en Kaakchirurgie)",
+   "kwalificaties": {
+    "1100": "Kaakchirurg"
+   }
+  },
+  "12": {
+   "naam": "Tandartsen",
+   "kwalificaties": {
+    "1200": "Tandarts",
+    "1201": "Implantologie",
+    "1202": "Pedodontologie",
+    "1203": "Endodontologie"
+   }
+  },
+  "13": {
+   "naam": "Tandarts - Specialisten (Dento - Maxillaire Orthopedie)",
+   "kwalificaties": {
+    "1300": "Orthodontist"
+   }
+  },
+  "14": {
+   "naam": "Bedrijfsartsen",
+   "kwalificaties": {
+    "1400": "Arts arbeid en gezondheid",
+    "1402": "Arts bedrijfsgeneeskunde",
+    "1403": "Arts verzekeringsgeneeskunde"
+   }
+  },
+  "24": {
+   "naam": "Dietisten",
+   "kwalificaties": {
+    "2400": "Diëtisten",
+    "2401": "Dietisten, direct toegankelijk / 1e lijn",
+    "2402": "Diëtist Leefstijlcoach",
+    "2403": "Diëtist kinderleefstijlcoach"
+   }
+  },
+  "26": {
+   "naam": "Podotherapeuten",
+   "kwalificaties": {
+    "2600": "Podotherapie"
+   }
+  },
+  "33": {
+   "naam": "Kraamzorg",
+   "kwalificaties": {
+    "3301": "Kraamverzorgenden"
+   }
+  },
+  "44": {
+   "naam": "Optometristen",
+   "kwalificaties": {
+    "4400": "Optometristen",
+    "4402": "Orthoptisten"
+   }
+  },
+  "57": {
+   "naam": "Physician Assistant",
+   "kwalificaties": {
+    "5700": "Physician Assistant"
+   }
+  },
+  "84": {
+   "naam": "Overige Artsen",
+   "kwalificaties": {
+    "8400": "Overige artsen",
+    "8401": "Arts, chiropractie",
+    "8402": "Arts, musculoskeletale geneeskunde",
+    "8403": "Arts/tandarts, Acupunctuur",
+    "8405": "Arts, homeopathie",
+    "8406": "Arts, natuurgeneeskunde",
+    "8407": "Arts, antroposofische geneeskunde",
+    "8408": "Moermantherapie",
+    "8410": "Arts, manuele geneeskunde",
+    "8411": "Arts, haptotherapie",
+    "8412": "Arts, osteopathie",
+    "8413": "Flebologie / proctologie",
+    "8414": "Arts, Orthomoleculaire geneeskunde",
+    "8415": "Neurale therapie",
+    "8416": "Sportgeneeskunde",
+    "8417": "Arts Spoedeisende Hulp (SEH)",
+    "8418": "Specialist ouderengeneeskunde",
+    "8421": "SCEN-arts",
+    "8422": "Orthopedische geneeskunde",
+    "8423": "Arts Tuberculosebestrijding",
+    "8424": "Verslavingsarts",
+    "8425": "Basisarts",
+    "8426": "Arts Verstandelijk gehandicapten",
+    "8427": "Overige artsen, arts palliatieve geneeskunde",
+    "8428": "Jeugdarts",
+    "8429": "Klinisch fysicus audioloog",
+    "8430": "Arts Infectieziektebestrijding",
+    "8431": "Medisch seksuoloog",
+    "8432": "Klinisch technoloog",
+    "8433": "Cosmetisch arts",
+    "8434": "Ziekenhuisarts",
+    "8435": "Arts Maatschappij en Gezondheid",
+    "8437": "Forensisch arts"
+   }
+  },
+  "87": {
+   "naam": "Mondhygienisten",
+   "kwalificaties": {
+    "8700": "Mondhygiënist"
+   }
+  },
+  "88": {
+   "naam": "Ergotherapeuten",
+   "kwalificaties": {
+    "8800": "Ergotherapie",
+    "8801": "Ergotherapie, direct toegankelijk / 1e lijn",
+    "8802": "Handergotherapie",
+    "8803": "Kinderergotherapie",
+    "8804": "Ouderenergotherapie"
+   }
+  },
+  "89": {
+   "naam": "Schoonheidsspecialisten",
+   "kwalificaties": {
+    "8900": "Schoonheidsspecialisten",
+    "8904": "Schoonheidsspecialist",
+    "8905": "Acne",
+    "8906": "Camouflage",
+    "8907": "Elektrisch ontharen",
+    "8912": "Schoonheidsspecialist(e), niet ANBOS geregistreerd",
+    "8913": "Ontharen met licht (IPL/Laser)"
+   }
+  },
+  "90": {
+   "naam": "Overige therapeuten en Complementair en Aanvullende zorg",
+   "kwalificaties": {
+    "9000": "Overige therapeuten en Complementair en Aanvullende zorg",
+    "9001": "Chiropractie",
+    "9002": "Orthomanuele geneeskunde",
+    "9003": "Acupunctuur",
+    "9004": "Iriscopie",
+    "9005": "Homeopathie",
+    "9006": "Natuurgeneeskunde",
+    "9007": "Antroposofische geneeskunde",
+    "9008": "Moerman therapie",
+    "9009": "Enzymtherapie",
+    "9010": "Manuele geneeskunde",
+    "9011": "Haptotherapie",
+    "9012": "Osteopathie",
+    "9013": "Huidtherapie",
+    "9014": "Kunstzinnige therapie",
+    "9015": "Podologie",
+    "9016": "Orthomoleculaire geneeskunde",
+    "9017": "Shiatsu therapie",
+    "9018": "Echoscopie",
+    "9020": "Seksuologen",
+    "9021": "Genezers, overigen",
+    "9022": "Cranio sacraal therapie",
+    "9023": "Adem- en ontspanningstherapie methode van Dixhoorn",
+    "9024": "Kindertherapie",
+    "9025": "Vaktherapie",
+    "9026": "Echoscopie NT",
+    "9027": "Echoscopie SEO",
+    "9028": "Echoscopie uitwendig",
+    "9029": "Gewichtsconsulent",
+    "9030": "Lactatiekundige",
+    "9031": "Huidtherapie, direct toegankelijk",
+    "9032": "Reflexzonetherapie",
+    "9033": "Doula",
+    "9034": "Yogadocenten",
+    "9035": "Sportmasseur",
+    "9036": "Preventieve voetzorg",
+    "9037": "Psychosociaal zorgverlener",
+    "9038": "Leefstijlcoach",
+    "9039": "Positieve gezondheid zorgverlener",
+    "9040": "Eerste trimester SEO",
+    "9041": "Tweede trimester SEO",
+    "9042": "Biometrie echo",
+    "9043": "Termijn echo",
+    "9044": "Gynaecologische echo",
+    "9045": "Counseling prenatale screening",
+    "9046": "Kinderleefstijlcoach",
+    "9047": "Mindfulness",
+    "9048": "SMR-coach",
+    "9049": "Centrale Zorgverlener KNGG"
+   }
+  },
+  "91": {
+   "naam": "Verpleegkundigen",
+   "kwalificaties": {
+    "9100": "Verpleegkundigen, niet nader gespecificeerd",
+    "9101": "Specialisatie Diabetes",
+    "9102": "Specialisatie Continentie",
+    "9104": "Specialisatie Wond",
+    "9105": "Specialisatie Stoma",
+    "9106": "Specialisatie Long",
+    "9107": "Specialisatie Oncologie",
+    "9108": "Specialisatie Transfer",
+    "9109": "Verpleegkundigen niveau 4",
+    "9110": "Verpleegkundigen niveau 6 of hoger",
+    "9111": "Verzorgenden",
+    "9112": "Verpleegkundigen niveau 4 PGB",
+    "9113": "Verpleegkundigen niveau 6 PGB",
+    "9116": "Sociaal Psychiatrisch Verpleegkundigen",
+    "9117": "Jeugdverpleegkundigen",
+    "9118": "Jeugdverpleegkundige Centrale Zorgverlener KNGG",
+    "9130": "Verpleegkundig specialist, preventieve zorg bij somatische a",
+    "9131": "Verpleegkundig specialist, acute zorg bij somatische aandoen",
+    "9132": "Verpleegkundig specialist, intensieve zorg bij somatische aa",
+    "9133": "Verpleegkundig specialist, chronische zorg bij somatische aa",
+    "9134": "Verpleegkundig  specialist, Geestelijke Gezondheidszorg",
+    "9135": "Verpleegkundig specialist, Algemene Gezondheidszorg",
+    "9136": "Verpleegkundigen niveau 5"
+   }
+  },
+  "93": {
+   "naam": "Tandtechnici / Tandprothetici",
+   "kwalificaties": {
+    "9301": "Tandprotheticus",
+    "9302": "Tandtechnicus"
+   }
+  },
+  "94": {
+   "naam": "Psychologische Zorgverleners",
+   "kwalificaties": {
+    "9400": "Psychologische zorgverleners",
+    "9401": "Gz-psychologie met eerstelijnskwalificatie",
+    "9402": "Psychotherapie",
+    "9405": "Klinische psychologie",
+    "9406": "Gz-psychologie",
+    "9416": "Psycholoog NIP / Master-Psycholoog SKJ",
+    "9417": "Orthopedagoog-generalist",
+    "9418": "Klinische neuropsychologie",
+    "9419": "Orthopedagogen (overig)",
+    "9420": "Orthopedagoog / Masterorthopedagoog",
+    "9421": "Kwaliteitsgeregistreerd ECP-therapie",
+    "9422": "ECP-therapie",
+    "9423": "Kinder en jeugdpsycholoog NIP",
+    "9462": "Psycholoog Arbeid en Gezondheid (NIP)",
+    "9463": "Master pedagoog",
+    "9464": "Jeugd- en gezinsprofessional",
+    "9465": "Kinder- en jeugdpsycholoog",
+    "9466": "Postmaster orthopedagoog",
+    "9474": "Jeugd- en gezinsprofessional Kinderleefstijlcoach",
+    "9475": "Jeugd- en gezinsprofessional Centrale Zorgverlener KNGG"
+   }
+  },
+  "96": {
+   "naam": "Pedicuren",
+   "kwalificaties": {
+    "9600": "Pedicuren",
+    "9601": "Pedicure",
+    "9602": "Specialisatie reumatische voet",
+    "9603": "Specialisatie diabetische voet",
+    "9605": "Medische pedicure",
+    "9606": "Pedicure,  pedicure in de zorg",
+    "9607": "Pedicure,  registerpedicure",
+    "9608": "Pedicure,  paramedisch chiropodist",
+    "9609": "Pedicure, specialisatie Risicovoet"
+   }
+  }
+ },
+ "organisatie": {
+  "01": {
+   "naam": "Huisartsen",
+   "kwalificaties": {
+    "0100": "Huisartsenpraktijk"
+   }
+  },
+  "02": {
+   "naam": "Apothekers",
+   "kwalificaties": {
+    "0200": "Apothekers",
+    "0205": "Apotheken"
+   }
+  },
+  "03": {
+   "naam": "Medisch Specialisten",
+   "kwalificaties": {
+    "0300": "Medisch specialisten"
+   }
+  },
+  "04": {
+   "naam": "Fysiotherapeuten",
+   "kwalificaties": {
+    "0400": "Fysiotherapeuten",
+    "0404": "Manuele therapie",
+    "0408": "Sportfysiotherapie"
+   }
+  },
+  "05": {
+   "naam": "Logopedisten",
+   "kwalificaties": {
+    "0500": "Logopedisten"
+   }
+  },
+  "06": {
+   "naam": "Ziekenhuizen",
+   "kwalificaties": {
+    "0600": "Ziekenhuizen, niet nader gespecificeerd",
+    "0601": "Algemene ziekenhuizen",
+    "0602": "Academische ziekenhuizen",
+    "0603": "Astmaklinieken",
+    "0606": "Epilepsiecentra",
+    "0607": "Kinderziekenhuizen",
+    "0608": "Kankerklinieken",
+    "0610": "Kraamklinieken",
+    "0613": "Oogziekenhuizen",
+    "0614": "Orthopedische klinieken",
+    "0616": "Revalidatie-centra",
+    "0621": "Sanatoria",
+    "0628": "Multi-categorale ziekenhuizen",
+    "0629": "Psychiatrische ziekenhuizen",
+    "0630": "Militaire ziekenhuizen",
+    "0650": "Ziekenhuizen Buitenland"
+   }
+  },
+  "07": {
+   "naam": "Oefentherapeuten",
+   "kwalificaties": {
+    "0700": "Oefentherapie",
+    "0725": "Oefentherapeuten"
+   }
+  },
+  "08": {
+   "naam": "Verloskundigen",
+   "kwalificaties": {
+    "0800": "Verloskundige",
+    "0802": "Verloskundigen, echoscopie NT",
+    "0803": "Verloskundigen, echoscopie SEO",
+    "0815": "Verloskunde"
+   }
+  },
+  "11": {
+   "naam": "Tandarts - Specialisten (Mondziekten en Kaakchirurgie)",
+   "kwalificaties": {
+    "1100": "Kaakchirurg",
+    "1105": "Mondziekten en kaakchirugie"
+   }
+  },
+  "12": {
+   "naam": "Tandartsen",
+   "kwalificaties": {
+    "1200": "Tandarts",
+    "1205": "Tandartsen"
+   }
+  },
+  "13": {
+   "naam": "Tandarts - Specialisten (Dento-Maxillaire Orthopedie)",
+   "kwalificaties": {
+    "1300": "Orthodontist",
+    "1305": "Dentomaxillaire Orthopaedie"
+   }
+  },
+  "14": {
+   "naam": "Bedrijfsartsen",
+   "kwalificaties": {
+    "1400": "Arts arbeid en gezondheid"
+   }
+  },
+  "17": {
+   "naam": "Rechtspersonen",
+   "kwalificaties": {
+    "1700": "Rechtspersonen"
+   }
+  },
+  "18": {
+   "naam": "Dialyse Centra",
+   "kwalificaties": {
+    "1800": "Dialysecentra"
+   }
+  },
+  "19": {
+   "naam": "Audiologische Centra",
+   "kwalificaties": {
+    "1900": "Audiologische centra"
+   }
+  },
+  "20": {
+   "naam": "Radiotherapeutische Centra",
+   "kwalificaties": {
+    "2000": "Radiotherapeutische centra"
+   }
+  },
+  "21": {
+   "naam": "Dienstenstructuren (ANW-Diensten)",
+   "kwalificaties": {
+    "2100": "Dienstenstructuren (ANW-diensten)"
+   }
+  },
+  "22": {
+   "naam": "Zelfstandige Behandelcentra",
+   "kwalificaties": {
+    "2200": "Zelfstandige behandelcentra (ZBC)",
+    "2270": "Zelfstandige behandelcentra (EMS)"
+   }
+  },
+  "23": {
+   "naam": "Instellingen voor Revalidatiedagbehandeling",
+   "kwalificaties": {
+    "2300": "Inrichtingen voor revalidatiedagbehandeling"
+   }
+  },
+  "24": {
+   "naam": "Dietisten",
+   "kwalificaties": {
+    "2400": "Diëtisten",
+    "2405": "Diëtetiek"
+   }
+  },
+  "25": {
+   "naam": "Instellingen voor Psychiatrische Deeltijdbehandeling",
+   "kwalificaties": {
+    "2500": "Inrichtingen voor psychiatrische deeltijdbehandeling"
+   }
+  },
+  "26": {
+   "naam": "Podotherapeuten",
+   "kwalificaties": {
+    "2600": "Podotherapie",
+    "2605": "Podotherapeuten"
+   }
+  },
+  "30": {
+   "naam": "Instellingen voor Verstandelijk Gehandicapten",
+   "kwalificaties": {
+    "3000": "Instelling voor verstandelijk gehandicapten"
+   }
+  },
+  "31": {
+   "naam": "Bloedbanken",
+   "kwalificaties": {
+    "3100": "Bloedbanken"
+   }
+  },
+  "32": {
+   "naam": "GGD",
+   "kwalificaties": {
+    "3200": "GGD's (instellingen)"
+   }
+  },
+  "33": {
+   "naam": "Kraamzorg",
+   "kwalificaties": {
+    "3300": "Kraamcentra"
+   }
+  },
+  "34": {
+   "naam": "Trombosediensten",
+   "kwalificaties": {
+    "3400": "Trombosediensten"
+   }
+  },
+  "35": {
+   "naam": "Instellingen voor Visueel Gehandicapten",
+   "kwalificaties": {
+    "3500": "Instellingen voor visueel gehandicapten"
+   }
+  },
+  "36": {
+   "naam": "Ambulancediensten",
+   "kwalificaties": {
+    "3600": "Ambulancevervoerders"
+   }
+  },
+  "37": {
+   "naam": "Gezondheidscentra",
+   "kwalificaties": {
+    "3700": "Gezondheidscentra"
+   }
+  },
+  "38": {
+   "naam": "Tandheelkundige Centra",
+   "kwalificaties": {
+    "3800": "Instellingen voor bijzondere tandheelkunde en mondzorg",
+    "3801": "Instelling voor bijzondere tandheelkunde, collectief tijdsta",
+    "3802": "Instelling voor bijzondere tandheelkunde, individueel tijdst",
+    "3803": "Instelling voor Mondzorg"
+   }
+  },
+  "39": {
+   "naam": "Instellingen voor Jeugdtandverzorging",
+   "kwalificaties": {
+    "3900": "Regionale instellingen voor jeugdtandverzorging"
+   }
+  },
+  "40": {
+   "naam": "Instellingen voor Auditief Gehandicapten",
+   "kwalificaties": {
+    "4000": "Instellingen voor auditief gehandicapten"
+   }
+  },
+  "41": {
+   "naam": "ZZP-ers in wijkverpleging/ PGB aanbieders / Beheerstichtingen",
+   "kwalificaties": {
+    "4100": "Beheerstichtingen",
+    "4101": "ZZP-ers in wijkverpleging",
+    "4102": "PGB aanbieders"
+   }
+  },
+  "42": {
+   "naam": "Verzorgingshuizen",
+   "kwalificaties": {
+    "4200": "Verzorgingstehuizen"
+   }
+  },
+  "43": {
+   "naam": "Beheerstichtingen Verzorgingstehuizen",
+   "kwalificaties": {
+    "4300": "Beheerstichtingen verzorgingshuizen"
+   }
+  },
+  "44": {
+   "naam": "Optometristen",
+   "kwalificaties": {
+    "4400": "Optometristen",
+    "4405": "Optometrie"
+   }
+  },
+  "45": {
+   "naam": "Verpleeginrichtingen voor Somatische Ziekten",
+   "kwalificaties": {
+    "4500": "Verpleeginrichtingen somatische zieken"
+   }
+  },
+  "46": {
+   "naam": "Verpleeginrichtingen voor Psycho-Geriatrische Patienten",
+   "kwalificaties": {
+    "4600": "Verpleeginrichtingen psycho-geriatrische patienten"
+   }
+  },
+  "47": {
+   "naam": "Gecombineerde Verpleeginrichtingen",
+   "kwalificaties": {
+    "4700": "Gecombineerde verpleeginrichtingen"
+   }
+  },
+  "48": {
+   "naam": "Overige Instellingen",
+   "kwalificaties": {
+    "4800": "Overige instellingen",
+    "4801": "Gemeenten",
+    "4802": "Instelling voor Reizigersvaccinatie",
+    "4803": "Herstellingsoord",
+    "4804": "Hospice / Bijna-Thuis-Huis (High-Care)",
+    "4805": "Zorghotel",
+    "4807": "Mantelzorg makelaar",
+    "4812": "Preventieve Zorg Slaaptherapie",
+    "4817": "Preventieve Zorg Beweegprogramma's",
+    "4818": "Preventieve Zorg Afvallen",
+    "4820": "Preventieve Zorg Stoppen met roken",
+    "4821": "Preventieve Zorg Healthcheck"
+   }
+  },
+  "49": {
+   "naam": "Abortusklinieken",
+   "kwalificaties": {
+    "4900": "Abortusklinieken (voorheen beheerstichtingen verpleeghuizen)"
+   }
+  },
+  "50": {
+   "naam": "Laboratoria(Huisartsenlab./Gemeensch.Lab/Gemeensch Apoth+Lab",
+   "kwalificaties": {
+    "5000": "Laboratoria"
+   }
+  },
+  "51": {
+   "naam": "Klinisch-Genetische Centra",
+   "kwalificaties": {
+    "5100": "Klinisch-genetisch centra"
+   }
+  },
+  "52": {
+   "naam": "Eurotransplant",
+   "kwalificaties": {
+    "5200": "Eurotransplant"
+   }
+  },
+  "53": {
+   "naam": "Diverse Samenwerkingsverbanden",
+   "kwalificaties": {
+    "5300": "Diverse samenwerkingsverbanden, niet nader gespecificeerd",
+    "5301": "Ketenzorg DM type 2",
+    "5302": "Ketenzorg CVR",
+    "5303": "Ketenzorg COPD",
+    "5304": "Ketenzorg Reuma",
+    "5305": "Ketenzorg Astma",
+    "5306": "O&I Wijksamenwerking",
+    "5307": "Onderwijs Begeleidingsdiensten (OBD)",
+    "5308": "Huisarts verplaatste zorg",
+    "5309": "Dyslexie",
+    "5314": "Integrale geboortezorg",
+    "5316": "Samenwerkingsverband GLI",
+    "5321": "Innovatie experiment voor Huisartsenzorg",
+    "5322": "Innovatie experiment voor Fysiotherapie",
+    "5323": "Innovatie experiment voor Kraamzorg",
+    "5324": "Innovatie experiment voor GGZ"
+   }
+  },
+  "54": {
+   "naam": "GGZ Instellingen (PUK/PAAZ)",
+   "kwalificaties": {
+    "5400": "GGZ Instellingen (PUK/PAAZ)"
+   }
+  },
+  "56": {
+   "naam": "Consultatiebureaus voor Alcohol en Drugs",
+   "kwalificaties": {
+    "5600": "Consultatiebureaus voor alcohol en drugs"
+   }
+  },
+  "58": {
+   "naam": "Centrale Post Ambulancediensten - CPA",
+   "kwalificaties": {
+    "5800": "Centrale posten ambulancediensten (CPA's)"
+   }
+  },
+  "60": {
+   "naam": "Instellingen voor Dagverpleging voor Ouderen",
+   "kwalificaties": {
+    "6000": "Instellingen voor dagverpleging voor ouderen"
+   }
+  },
+  "61": {
+   "naam": "Beheerstichtingen Dagverblijven",
+   "kwalificaties": {
+    "6100": "Beheerstichtingen dagverblijven"
+   }
+  },
+  "65": {
+   "naam": "Gezinsvervangende Tehuizen",
+   "kwalificaties": {
+    "6500": "Gezinsvervangende tehuizen"
+   }
+  },
+  "66": {
+   "naam": "Koepels en Beheerstichtingen WLZ",
+   "kwalificaties": {
+    "6600": "Koepels en beheerstichtingen WLZ"
+   }
+  },
+  "67": {
+   "naam": "Netwerk organisaties",
+   "kwalificaties": {
+    "6701": "Regionetwerk Casemanagement Dementie",
+    "6703": "VerloskundigeSamenwerkingsVerbanden (VSV)"
+   }
+  },
+  "70": {
+   "naam": "Kinderdagverblijven",
+   "kwalificaties": {
+    "7000": "Kinderdagverblijven"
+   }
+  },
+  "72": {
+   "naam": "RIBW",
+   "kwalificaties": {
+    "7200": "Regionale instellingen beschermd wonen (RIBW)"
+   }
+  },
+  "73": {
+   "naam": "WLZ Gecombineerd",
+   "kwalificaties": {
+    "7300": "WLZ gecombineerd"
+   }
+  },
+  "74": {
+   "naam": "Arbodiensten",
+   "kwalificaties": {
+    "7400": "ARBO-diensten"
+   }
+  },
+  "75": {
+   "naam": "Thuiszorginstellingen",
+   "kwalificaties": {
+    "7500": "Thuiszorg"
+   }
+  },
+  "76": {
+   "naam": "Leveranciers Hulpmiddelen",
+   "kwalificaties": {
+    "7600": "Hulpmiddelen leverancier, niet nader gespecificeerd",
+    "7601": "Leveranciers hulpmiddelen, ledemaatprothesen",
+    "7602": "Mammaprothesen",
+    "7603": "Oogprothesen",
+    "7604": "Prothetische voorzieningen voor onder- en bovenkaak",
+    "7605": "Leveranciers hulpmiddelen, gelaatsprothesen",
+    "7606": "Korsetten",
+    "7607": "Orthopedisch schoeisel",
+    "7608": "Overige orthesen",
+    "7609": "Verbandschoenen",
+    "7610": "Armprothesen",
+    "7611": "Brillenglazen",
+    "7612": "Contactlenzen",
+    "7613": "Leveranciers hulpmiddelen, bijzondere gezichtshulpmiddelen",
+    "7614": "Bijzondere gezichtshulpmiddelen algemeen",
+    "7615": "Bijzondere gezichtshulpmiddelen maatwerk",
+    "7616": "Hoortoestellen",
+    "7617": "Extern hoortoestel in combinatie met implantaat (baha)",
+    "7618": "Maskeerder ter behandeling van oorsuizen (tinnetusmaskeerder",
+    "7619": "Gehoor hulpmiddelen",
+    "7620": "Solo apparatuur",
+    "7621": "Incontinentie absorptiehulpmiddelen",
+    "7622": "Overige verzorgingsmiddelen",
+    "7623": "Draagbare uitwendige infuuspomp",
+    "7624": "Incontinentie afvoerende hulpmiddelen",
+    "7625": "Stoma materialen",
+    "7626": "Slijmuitzuigapparatuur",
+    "7627": "Confectie orthesen",
+    "7628": "Maatwerk orthesen",
+    "7629": "Tracheacanule en stemprothesen",
+    "7630": "Steunzolen",
+    "7631": "Loophulpmiddelen",
+    "7632": "Eenvoudige hulpmiddelen voor mobiliteit van personen",
+    "7633": "Overige hulpmiddelen voor mobiliteit van personen",
+    "7634": "Blindegeleidehonden",
+    "7635": "Hulphonden",
+    "7636": "Haarwerken",
+    "7637": "Arm-, hand-, vingerfunctievervullers (robotarm)",
+    "7638": "Anaalspoelapparatuur",
+    "7639": "Plaswekker",
+    "7640": "Bewakingsmonitor voor baby",
+    "7641": "Compressiezorg",
+    "7642": "Allergeenvrije hoezen",
+    "7643": "Verbandmiddelen",
+    "7644": "UV-B lichttherapie",
+    "7645": "Allergeenvrije schoenen",
+    "7646": "Anti-conceptionele hulpmiddelen",
+    "7647": "Kappen ter bescherming van de schedel",
+    "7648": "Ligorthesen",
+    "7649": "Thuisdialyse apparatuur",
+    "7650": "Zelfmeetapparatuur voor bloedstollingstijden",
+    "7651": "Injectiespuiten",
+    "7652": "Beenprothesen",
+    "7656": "Insuline-infuuspompen",
+    "7657": "Overige diabeteshulpmiddelen",
+    "7661": "Zuurstofapparaten en -concentrators",
+    "7662": "Apparatuur voor verzekerden met ademhalingsstoornissen (CPAP",
+    "7663": "Apparatuur voor positieve uitademingsdruk",
+    "7666": "Longvibrators",
+    "7671": "Vernevelaars",
+    "7676": "Beeldschermloep",
+    "7677": "Tactiel leesapparatuur",
+    "7681": "Elektrastimulator",
+    "7682": "Botgroei-stimulators",
+    "7685": "Hulpmiddelen voor het toedienen van voeding",
+    "7686": "Dieetpreparaten",
+    "7687": "Voeding",
+    "7688": "Eetapparaten",
+    "7689": "hulpmiddelen voor communicatie voor lichamelijk gehandicapte",
+    "7691": "Inrichtingselementen van woningen",
+    "7692": "Hulpmiddelen voor communicatie persoonlijke alarmering",
+    "7693": "Hulpmiddelen voor communicatie-, wek- en waarschuwing",
+    "7694": "Hulpmiddelen voor communicatie bij revalidatie",
+    "7695": "Hulpmiddelen voor communicatie, informatie en signalering",
+    "7696": "Fax-apparatuur voor auditief gehandicapten",
+    "7697": "Hulpmiddelen voor communicatie grootlettersystemen",
+    "7698": "Hulpmiddelen voor communicatie-, opname- en voorleesapparatu",
+    "7699": "Hulpmiddelen voor communicatie-, telefoons en telefoneerhulp"
+   }
+  },
+  "78": {
+   "naam": "Sociaal Pedagogische Diensten",
+   "kwalificaties": {
+    "7800": "Sociaal pedagogische diensten"
+   }
+  },
+  "79": {
+   "naam": "RIAGG",
+   "kwalificaties": {
+    "7900": "RIAGG's"
+   }
+  },
+  "84": {
+   "naam": "Overige Artsen",
+   "kwalificaties": {
+    "8400": "Overige artsen"
+   }
+  },
+  "85": {
+   "naam": "Taxivervoerders",
+   "kwalificaties": {
+    "8500": "Taxivervoerders"
+   }
+  },
+  "87": {
+   "naam": "Mondhygienisten",
+   "kwalificaties": {
+    "8700": "Mondhygiënist",
+    "8705": "Mondhygiënisten"
+   }
+  },
+  "88": {
+   "naam": "Ergotherapeuten",
+   "kwalificaties": {
+    "8800": "Ergotherapie",
+    "8805": "Ergotherapeuten"
+   }
+  },
+  "89": {
+   "naam": "Schoonheidsspecialisten",
+   "kwalificaties": {
+    "8900": "Schoonheidsspecialisten"
+   }
+  },
+  "90": {
+   "naam": "Overige therapeuten en Complementair en Aanvullende zorg",
+   "kwalificaties": {
+    "9000": "Overige therapeuten en Complementair en Aanvullende zorg",
+    "9032": "Reflexzonetherapie",
+    "9037": "Psychosociaal zorgverlener"
+   }
+  },
+  "91": {
+   "naam": "Verpleegkundigen",
+   "kwalificaties": {
+    "9100": "Verpleegkundigen, niet nader gespecificeerd"
+   }
+  },
+  "93": {
+   "naam": "Tandtechnici / Tandprothetici",
+   "kwalificaties": {
+    "9300": "Tandtechnici / tandprothetici"
+   }
+  },
+  "94": {
+   "naam": "Psychologische Zorgverleners",
+   "kwalificaties": {
+    "9400": "Psychologische zorgverleners"
+   }
+  },
+  "96": {
+   "naam": "Pedicuren",
+   "kwalificaties": {
+    "9600": "Pedicuren",
+    "9606": "Pedicure,  pedicure in de zorg",
+    "9609": "Pedicure, specialisatie Risicovoet"
+   }
+  },
+  "98": {
+   "naam": "Declaranten/Servicebureaus/Zorgverzekeraars",
+   "kwalificaties": {
+    "9800": "Declaranten",
+    "9801": "Servicebureau",
+    "9802": "Aanbieder Maatschappelijke ondersteuning / Jeugdzorg",
+    "9803": "Zorgverzekeraar",
+    "9804": "Aanbieder PGB WLZ",
+    "9805": "Reisverzekeraar"
+   }
+  }
+ }
+}
