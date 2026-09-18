@@ -163,3 +163,7 @@ does, field by field, in [docs/agb-source-notes.md](docs/agb-source-notes.md).
 
 MIT for the code, see [LICENSE](LICENSE). The register data belongs to Vektis
 and is subject to the terms of use on vektis.nl.
+
+## More Dutch extensions
+
+For more Dutch extensions for your AI, see [qontex.nl](https://qontex.nl).
